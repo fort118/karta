@@ -1,0 +1,34 @@
+{
+	"name": "fort118-karta",
+	"version": "0.0.1",
+	"description": "Karta över Fort 118",
+	"main": "index.ts",
+	"scripts": {
+		"test": "npm test",
+		"dev": "vite dev",
+		"build": "vite build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fort118/karta.git"
+	},
+	"keywords": [
+		"karta",
+		"fort118",
+		"sjöänd",
+		"skans"
+	],
+	"author": "Jeremy Karlsson <jeremy@barlingshult.se>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fort118/karta/issues"
+	},
+	"homepage": "https://github.com/fort118/karta#readme",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"@types/leaflet": "^1.9.20",
+		"leaflet": "^1.9.4",
+		"vite": "^7.1.2",
+		"webact": "^0.2.23"
+	}
+}
