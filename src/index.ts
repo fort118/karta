@@ -1,18 +1,10 @@
 import L from "leaflet";
 import "leaflet-imageoverlay-rotated";
+import type { GeoJSON, GeoJsonObject } from "geojson";
 import leafletCSS from "leaflet/dist/leaflet.css?inline";
 import { Component, registerComponent } from "webact";
 import kartaImageUrl from "./karta-sq.png?url";
-
-const yx = L.latLng;
-
-const xy = (x: number | [number, number], y: number) => {
-	if (Array.isArray(x)) {
-		return yx(x[1], x[0]);
-	}
-
-	return yx(y, x);
-};
+import roomsGeoJSON from "./rooms.json";
 
 class Fort118Karta extends Component {
 	#map: L.Map | null = null;
@@ -110,26 +102,51 @@ class Fort118Karta extends Component {
 			zoom: 16,
 		});
 
-		const OpenTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-			maxZoom: 17,
-			attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-		});
+		const OpenTopoMap = L.tileLayer(
+			"https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+			{
+				maxZoom: 17,
+				attribution:
+					'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
+			},
+		);
 
 		OpenTopoMap.addTo(this.#map);
 
 		this.addImageOverlay();
-		/*
-		const redSquareIcon = L.divIcon({
-			html: '<div style="width: 32px; height: 32px; background-color: red; border: 1px solid blue;"></div>',
+
+		// Add click event listener to log coordinates
+		this.#map.on("click", (e: L.LeafletMouseEvent) => {
+			const lat = e.latlng.lat;
+			const lng = e.latlng.lng;
+			console.log(`Clicked coordinates: [${lng}, ${lat}]`);
 		});
 
-		const befälsbunker = xy(250, 490);
-		const befälsbunkerMarker = L.marker(befälsbunker, {
-			icon: redSquareIcon,
-		}).addTo(this.#map);
+		const geoJSONOptions = {
+			pointToLayer: (
+				geoJsonPoint: GeoJSON.Feature<GeoJSON.Point>,
+				latlng: L.LatLng,
+			) => {
+				return L.circleMarker(latlng, {
+					radius: 0,
+					fillColor: geoJsonPoint.properties?.["marker-color"],
+					color: geoJsonPoint.properties?.["marker-color"],
+					weight: 10,
+				});
+			},
+		};
 
-		befälsbunkerMarker.bindPopup("Befälsbunker").openPopup();
-		*/
+		L.geoJSON(roomsGeoJSON as GeoJsonObject, geoJSONOptions)
+			.bindPopup((layer) => {
+				if ("feature" in layer && layer.feature) {
+					const feature = layer.feature as GeoJSON.Feature<GeoJSON.Point>;
+
+					return feature.properties?.name ?? "";
+				}
+
+				return "";
+			})
+			.addTo(this.#map);
 	}
 
 	render() {

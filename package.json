@@ -27,6 +27,7 @@
 	"homepage": "https://github.com/fort118/karta#readme",
 	"devDependencies": {
 		"@biomejs/biome": "2.2.0",
+		"@types/geojson": "^7946.0.16",
 		"@types/leaflet": "^1.9.20",
 		"@types/leaflet-imageoverlay-rotated": "^0.1.7",
 		"leaflet": "^1.9.4",

@@ -1,0 +1,47 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 202"
+			},
+			"geometry": {
+				"coordinates": [12.279764413833618, 59.473451383903125],
+				"type": "Point"
+			},
+			"id": 202
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 204"
+			},
+			"geometry": {
+				"coordinates": [12.280418872833252, 59.47368026543496],
+				"type": "Point"
+			},
+			"id": 204
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 203"
+			},
+			"geometry": {
+				"coordinates": [12.280054092407228, 59.473636669072235],
+				"type": "Point"
+			},
+			"id": 203
+		}
+	]
+}
