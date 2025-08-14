@@ -7,7 +7,7 @@
 	"scripts": {
 		"test": "npm test",
 		"dev": "vite dev",
-		"build": "vite build"
+		"build": "vite build && cp dist/*.js docs/"
 	},
 	"repository": {
 		"type": "git",
