@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "Karta över Fort 118",
 	"main": "index.ts",
+	"type": "module",
 	"scripts": {
 		"test": "npm test",
 		"dev": "vite dev",
@@ -30,7 +31,7 @@
 		"@types/leaflet-imageoverlay-rotated": "^0.1.7",
 		"leaflet": "^1.9.4",
 		"leaflet-imageoverlay-rotated": "^0.2.1",
-		"vite": "^7.1.2",
+		"vite": "npm:rolldown-vite@latest",
 		"webact": "^0.2.23"
 	}
 }
