@@ -1,0 +1,103 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 201"
+			},
+			"geometry": {
+				"coordinates": [12.279737591743471, 59.47328789614531],
+				"type": "Point"
+			},
+			"id": 201
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 202"
+			},
+			"geometry": {
+				"coordinates": [12.279764413833618, 59.473451383903125],
+				"type": "Point"
+			},
+			"id": 202
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 203"
+			},
+			"geometry": {
+				"coordinates": [12.280054092407228, 59.473636669072235],
+				"type": "Point"
+			},
+			"id": 203
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 204"
+			},
+			"geometry": {
+				"coordinates": [12.280418872833252, 59.47368026543496],
+				"type": "Point"
+			},
+			"id": 204
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 205"
+			},
+			"geometry": {
+				"coordinates": [12.281132340431215, 59.4741325743785],
+				"type": "Point"
+			},
+			"id": 205
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 206"
+			},
+			"geometry": {
+				"coordinates": [12.281593680381777, 59.47408897859945],
+				"type": "Point"
+			},
+			"id": 206
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#ff0000",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Skyddsrum 207"
+			},
+			"geometry": {
+				"coordinates": [12.281432747840883, 59.473685714976334],
+				"type": "Point"
+			},
+			"id": 207
+		}
+	]
+}

@@ -1,0 +1,132 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Kulsprutevärn (typ IV)"
+			},
+			"geometry": {
+				"coordinates": [12.279362082481386, 59.47354947617804],
+				"type": "Point"
+			},
+			"id": 0
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 33"
+			},
+			"geometry": {
+				"coordinates": [12.279490828514101, 59.47367481589267],
+				"type": "Point"
+			},
+			"id": 14
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 19"
+			},
+			"geometry": {
+				"coordinates": [12.28053152561188, 59.47400723636209],
+				"type": "Point"
+			},
+			"id": 19
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 20"
+			},
+			"geometry": {
+				"coordinates": [12.280628085136415, 59.474078079645906],
+				"type": "Point"
+			},
+			"id": 20
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 21"
+			},
+			"geometry": {
+				"coordinates": [12.2809499502182, 59.47407263016781],
+				"type": "Point"
+			},
+			"id": 21
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 22"
+			},
+			"geometry": {
+				"coordinates": [12.280971407890322, 59.474176170101295],
+				"type": "Point"
+			},
+			"id": 22
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 23"
+			},
+			"geometry": {
+				"coordinates": [12.281067967414858, 59.47424156358001],
+				"type": "Point"
+			},
+			"id": 23
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 24"
+			},
+			"geometry": {
+				"coordinates": [12.281100153923036, 59.474366900727084],
+				"type": "Point"
+			},
+			"id": 24
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#663399",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 33",
+				"description": "Gevärsvärn 33 var antagligen avsett att utrustas med någon form av automatvapen, eftersom det i första hand skulle kunna avvärja angrepp längs vagen ifrån öster. Förmodligen disponerade man inte mer än de 3 kulsprutor som fanns i kulsprutevärnet, utan beväpningen var förmodligen 1 eller 2 kulsprutegevär m/37."
+			},
+			"geometry": {
+				"coordinates": [12.28127181529999, 59.473484081359736],
+				"type": "Point"
+			},
+			"id": 33
+		}
+	]
+}
