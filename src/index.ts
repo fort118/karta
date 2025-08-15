@@ -1,10 +1,11 @@
 import L from "leaflet";
 import "leaflet-imageoverlay-rotated";
-import type { GeoJSON, GeoJsonObject } from "geojson";
+import type { GeoJsonObject } from "geojson";
 import leafletCSS from "leaflet/dist/leaflet.css?inline";
 import { Component, registerComponent } from "webact";
+import bombsheltersGeoJSON from "./bombshelters.json";
+import defensesGeoJSON from "./defenses.json";
 import kartaImageUrl from "./karta-sq.png?url";
-import roomsGeoJSON from "./rooms.json";
 
 class Fort118Karta extends Component {
 	#map: L.Map | null = null;
@@ -113,7 +114,7 @@ class Fort118Karta extends Component {
 
 		OpenTopoMap.addTo(this.#map);
 
-		this.addImageOverlay();
+		// this.addImageOverlay();
 
 		// Add click event listener to log coordinates
 		this.#map.on("click", (e: L.LeafletMouseEvent) => {
@@ -136,12 +137,26 @@ class Fort118Karta extends Component {
 			},
 		};
 
-		L.geoJSON(roomsGeoJSON as GeoJsonObject, geoJSONOptions)
+		L.geoJSON(bombsheltersGeoJSON as GeoJsonObject, geoJSONOptions)
 			.bindPopup((layer) => {
 				if ("feature" in layer && layer.feature) {
 					const feature = layer.feature as GeoJSON.Feature<GeoJSON.Point>;
 
 					return feature.properties?.name ?? "";
+				}
+
+				return "";
+			})
+			.addTo(this.#map);
+
+		L.geoJSON(defensesGeoJSON as GeoJsonObject, geoJSONOptions)
+			.bindPopup((layer) => {
+				if ("feature" in layer && layer.feature) {
+					const feature = layer.feature as GeoJSON.Feature<GeoJSON.Point>;
+
+					return `<strong>${feature.properties?.name ?? ""}</strong><p>${
+						feature.properties?.description ?? ""
+					}</p>`;
 				}
 
 				return "";
