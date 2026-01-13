@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"test": "npm test",
-		"dev": "vite dev",
+		"dev": "vite dev --host",
 		"build": "vite build && cp dist/*.js docs/"
 	},
 	"repository": {
@@ -32,7 +32,7 @@
 		"@types/leaflet-imageoverlay-rotated": "^0.1.7",
 		"leaflet": "^1.9.4",
 		"leaflet-imageoverlay-rotated": "^0.2.1",
-		"vite": "npm:rolldown-vite@latest",
+		"vite": "^8.0.0-beta.0",
 		"webact": "^0.2.23"
 	}
 }

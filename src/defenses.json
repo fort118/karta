@@ -4,7 +4,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#e67e22",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Kulsprutevärn (typ IV)"
@@ -13,18 +13,242 @@
 				"coordinates": [12.279362082481386, 59.47354947617804],
 				"type": "Point"
 			},
-			"id": 0
+			"id": 101
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#f1c40f",
 				"marker-size": "medium",
 				"marker-symbol": "square",
-				"name": "Gevärsvärn 33"
+				"name": "PV-garage"
+			},
+			"geometry": {
+				"coordinates": [12.280188202857973, 59.47353312748535],
+				"type": "Point"
+			},
+			"id": 101
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#f1c40f",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "PV-ställning A"
+			},
+			"geometry": {
+				"coordinates": [12.280166745185852, 59.47369116451684],
+				"type": "Point"
+			},
+			"id": 102
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#f1c40f",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "PV-ställning B"
+			},
+			"geometry": {
+				"coordinates": [12.280284762382509, 59.47380015514235],
+				"type": "Point"
+			},
+			"id": 103
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#f1c40f",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "PV-ställning C"
+			},
+			"geometry": {
+				"coordinates": [12.280445694923403, 59.47353312748535],
+				"type": "Point"
+			},
+			"id": 104
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 1"
+			},
+			"geometry": {
+				"coordinates": [12.280574440956117, 59.47358762309695],
+				"type": "Point"
+			},
+			"id": 1
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 2"
+			},
+			"geometry": {
+				"coordinates": [12.280595898628235, 59.47344048474387],
+				"type": "Point"
+			},
+			"id": 2
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 3"
+			},
+			"geometry": {
+				"coordinates": [12.2804993391037, 59.47346228305885],
+				"type": "Point"
+			},
+			"id": 3
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 4"
+			},
+			"geometry": {
+				"coordinates": [12.280392050743105, 59.47343503516293],
+				"type": "Point"
+			},
+			"id": 4
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 6"
+			},
+			"geometry": {
+				"coordinates": [12.279877066612245, 59.47316800462015],
+				"type": "Point"
+			},
+			"id": 6
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 7"
+			},
+			"geometry": {
+				"coordinates": [12.279662489891054, 59.47309170979172],
+				"type": "Point"
+			},
+			"id": 7
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 8"
+			},
+			"geometry": {
+				"coordinates": [12.279576659202577, 59.47310260906347],
+				"type": "Point"
+			},
+			"id": 8
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 9"
+			},
+			"geometry": {
+				"coordinates": [12.279565930366518, 59.47316255499524],
+				"type": "Point"
+			},
+			"id": 9
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 10"
+			},
+			"geometry": {
+				"coordinates": [12.279844880104067, 59.47336419053073],
+				"type": "Point"
+			},
+			"id": 10
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 11"
+			},
+			"geometry": {
+				"coordinates": [12.279437184333803, 59.47334784174837],
+				"type": "Point"
+			},
+			"id": 11
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 12"
+			},
+			"geometry": {
+				"coordinates": [12.279394268989565, 59.47347318221104],
+				"type": "Point"
+			},
+			"id": 12
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 13 (15a)"
 			},
 			"geometry": {
 				"coordinates": [12.279490828514101, 59.47367481589267],
+				"type": "Point"
+			},
+			"id": 13
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 14"
+			},
+			"geometry": {
+				"coordinates": [12.279437184333803, 59.47362032042173],
 				"type": "Point"
 			},
 			"id": 14
@@ -32,7 +256,63 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 15"
+			},
+			"geometry": {
+				"coordinates": [12.279319167137148, 59.473614870869795],
+				"type": "Point"
+			},
+			"id": 15
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 16"
+			},
+			"geometry": {
+				"coordinates": [12.279619574546816, 59.47372931127575],
+				"type": "Point"
+			},
+			"id": 16
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 17"
+			},
+			"geometry": {
+				"coordinates": [12.27978050708771, 59.4737947056194],
+				"type": "Point"
+			},
+			"id": 17
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 18"
+			},
+			"geometry": {
+				"coordinates": [12.280166745185852, 59.47377835704535],
+				"type": "Point"
+			},
+			"id": 18
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 19"
@@ -46,7 +326,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 20"
@@ -60,7 +340,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 21"
@@ -74,7 +354,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 22"
@@ -88,7 +368,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 23"
@@ -102,7 +382,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 24"
@@ -116,7 +396,119 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#663399",
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 25"
+			},
+			"geometry": {
+				"coordinates": [12.281411290168764, 59.47429605804892],
+				"type": "Point"
+			},
+			"id": 25
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 26"
+			},
+			"geometry": {
+				"coordinates": [12.281540036201479, 59.474279709717486],
+				"type": "Point"
+			},
+			"id": 26
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 27"
+			},
+			"geometry": {
+				"coordinates": [12.28173315525055, 59.47407263016781],
+				"type": "Point"
+			},
+			"id": 27
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 28"
+			},
+			"geometry": {
+				"coordinates": [12.281690239906311, 59.47400723636209],
+				"type": "Point"
+			},
+			"id": 28
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 29"
+			},
+			"geometry": {
+				"coordinates": [12.281658053398134, 59.47381650370581],
+				"type": "Point"
+			},
+			"id": 29
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 30"
+			},
+			"geometry": {
+				"coordinates": [12.281668782234194, 59.47370206359521],
+				"type": "Point"
+			},
+			"id": 30
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 31"
+			},
+			"geometry": {
+				"coordinates": [12.281561493873596, 59.47356582486285],
+				"type": "Point"
+			},
+			"id": 31
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
+				"marker-size": "medium",
+				"marker-symbol": "square",
+				"name": "Gevärsvärn 32"
+			},
+			"geometry": {
+				"coordinates": [12.28147566318512, 59.47351677878471],
+				"type": "Point"
+			},
+			"id": 32
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"marker-color": "#9b59b6",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Gevärsvärn 33",

@@ -4,7 +4,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 201"
@@ -18,7 +18,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 202"
@@ -32,7 +32,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 203"
@@ -46,7 +46,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 204"
@@ -60,7 +60,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 205"
@@ -74,7 +74,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 206"
@@ -88,7 +88,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"marker-color": "#ff0000",
+				"marker-color": "#e74c3c",
 				"marker-size": "medium",
 				"marker-symbol": "square",
 				"name": "Skyddsrum 207"
